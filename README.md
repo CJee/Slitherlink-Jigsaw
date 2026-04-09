@@ -32,16 +32,3 @@ This application is a hybrid puzzle game combining Slitherlink (a logic puzzle) 
 - **`utils.ts`**: Contains helper functions.
   - **`cn`** (Line 4): A utility for conditionally joining Tailwind CSS classes using `clsx` and `tailwind-merge`.
 
-## Deployment to GitHub Pages
-
-This project is configured to deploy automatically to GitHub Pages using GitHub Actions.
-
-### Setup Instructions:
-1. **Export to GitHub**: Use the "Export to GitHub" option in the AI Studio settings.
-2. **Enable GitHub Pages**:
-   - Go to your repository on GitHub.
-   - Navigate to **Settings** > **Pages**.
-   - Under **Build and deployment** > **Source**, select **"GitHub Actions"** from the dropdown menu.
-3. **Trigger Deployment**:
-   - The deployment will trigger automatically every time you push to the `main` branch.
-   - You can also manually trigger it from the **Actions** tab by selecting the "Deploy static content to Pages" workflow and clicking "Run workflow".
