@@ -12,6 +12,7 @@ This application is a hybrid puzzle game combining Slitherlink (a logic puzzle) 
 - **`tsconfig.json`**: TypeScript compiler configuration.
 - **`.env.example`**: A template for environment variables required by the application.
 - **`.gitignore`**: Specifies files and directories that should be ignored by Git.
+- **`.github/workflows/deploy.yml`**: The GitHub Actions workflow that automates the deployment to GitHub Pages.
 
 ### Source Files (`/src`)
 - **`main.tsx`**: The main entry point for React. It initializes the root element and renders the `<App />` component.
@@ -35,13 +36,3 @@ This application is a hybrid puzzle game combining Slitherlink (a logic puzzle) 
 ## Deployment to GitHub Pages
 
 This project is configured to deploy automatically to GitHub Pages using GitHub Actions.
-
-### Setup Instructions:
-1. **Export to GitHub**: Use the "Export to GitHub" option in the AI Studio settings.
-2. **Enable GitHub Pages**:
-   - Go to your repository on GitHub.
-   - Navigate to **Settings** > **Pages**.
-   - Under **Build and deployment** > **Source**, select **"GitHub Actions"** from the dropdown menu.
-3. **Trigger Deployment**:
-   - The deployment will trigger automatically every time you push to the `main` branch.
-   - You can also manually trigger it from the **Actions** tab by selecting the "Deploy static content to Pages" workflow and clicking "Run workflow".
