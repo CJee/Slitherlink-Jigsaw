@@ -33,6 +33,9 @@ This application is a hybrid puzzle game combining Slitherlink (a logic puzzle) 
 - **`utils.ts`**: Contains helper functions.
   - **`cn`** (Line 4): A utility for conditionally joining Tailwind CSS classes using `clsx` and `tailwind-merge`.
 
+<<<<<<< HEAD
 ## Deployment to GitHub Pages
 
 This project is configured to deploy automatically to GitHub Pages using GitHub Actions.
+=======
+>>>>>>> 52aa98e63830285c72ef7f0358e1da8eb87127d0
